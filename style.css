@@ -1,0 +1,30 @@
+h1 {
+	color: salmon;
+	/*komputer akan mencari font pertama diclient jika tidak ada maka akan mencari setelanya dan seterusnya*/
+	font-family: arial, verdana,sans-serif;
+	font-size: 50px;
+	font-weight: lighter;
+	/*value small-caps merubah semua menjadi huruf kapital namun sizenya tetap*/
+	font-variant: small-caps;
+	/*value oblique akan memaksa font menjadi italic meskipun tidak bisa*/
+	font-style: oblique;
+	text-align: center;
+
+}
+
+p{
+	/*line-height: 60px;*/
+	text-indent: 100px;
+	text-decoration: line-through;
+	text-transform: uppercase;;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: salmon;
+	background-image: url(blue-snow.png);
+	background-repeat: repeat-x;
+}
