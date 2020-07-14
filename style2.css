@@ -1,0 +1,30 @@
+/*koma dibaca dan*/
+h1 , h2 {
+	color: salmon
+}
+h2 {
+	font-family: arial;
+}
+
+/*space dibaca dalam*/
+ol li a {
+	color: green;
+}
+ul li a{
+	color: gold;
+}
+
+/*jika menggunakan id harus menggunakan # */
+#p1 {
+	color: green;
+}
+
+/*jika menggunakan class harus menggunakan . */
+/*class bisa lebih dari 1 elemen*/
+.p2 {
+	color: purple;
+}
+
+p.cetak-tebal{
+	font-weight: bold;
+}

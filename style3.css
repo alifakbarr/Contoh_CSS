@@ -1,0 +1,33 @@
+/*pseudo class yaitu class sementara / semu yang aktif pada hal tertentu saja seperti :link 
+,:hover saat diarahkan, :active saat ditekan,: visited ketika sudah dikunjungi*/
+
+.hello:link {
+	color: green;
+}
+.hello:hover {
+	color: salmon;
+	font-size: 30px;
+}
+.hello:active{
+	color: blue;
+	font-style: italic;
+}
+.hello:visited{
+	color: black;
+}
+
+/*(even) untuk genap*/
+/*(odd) untuk ganjil*/
+li:first-child{
+	color: green;
+}
+li:last-child{
+	color: green;
+}
+li:nth-child(2){
+	color :green;
+}
+/*last-of-type*/
+p:first-of-type{
+	color:salmon;
+}
